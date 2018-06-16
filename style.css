@@ -1,0 +1,39 @@
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+.forcast h5,
+.forcast h4,
+.forcast h2 {
+  margin: 0;
+}
+
+.title {
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  font-size: 30px;
+  border-bottom: 1px solid white;
+}
+
+svg {
+  height: 100vh;
+}
+
+body {
+  background: black;
+}
+
+path {
+  stroke: white;
+  fill: transparent;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+path:hover {
+  fill: #B99362;
+  transform: translate(-10px, -10px);
+}
+/*# sourceMappingURL=style.css.map */

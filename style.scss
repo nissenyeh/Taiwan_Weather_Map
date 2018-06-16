@@ -1,0 +1,40 @@
+$color-gole:#B99362;
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+.forcast {
+    h5,
+    h4,
+    h2 {
+        margin: 0;
+    }
+}
+
+.title {
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+}
+
+svg {
+    height: 100vh;
+}
+
+body {
+    background: black;
+}
+
+path {
+    stroke: white;
+    fill: transparent; // PATH顏色不能是none
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover {
+        fill: $color-gole;
+        transform: translate(-10px, -10px)
+    }
+}
