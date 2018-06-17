@@ -6,7 +6,11 @@
 * User can get the weather information by clicking location(點選地點可以獲得當下的天氣狀態)
 
 
-http://www.giphy.com/gifs/2vnfqslv7My8vN9tpj
+
+
+![Alt text](https://media.giphy.com/media/54Wy5iP5vHNBbBQ7Xs/giphy.gif)
+
+
 
 
 #### 嘗試使用的技術

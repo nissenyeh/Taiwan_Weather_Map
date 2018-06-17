@@ -3,8 +3,10 @@
 }
 
 .forcast {
-  border: white 1px solid;
+  border: white 0.5px solid;
   padding: 20px;
+  opacity: 0;
+  transition: 1s;
 }
 
 .forcast h5,
@@ -14,17 +16,12 @@
   margin: 0;
 }
 
-.forcast .cityname {
-  color: rgba(241, 215, 67, 0.938);
-}
-
 .title {
   color: white;
   position: absolute;
   top: 20%;
   right: 20%;
   font-size: 30px;
-  border-bottom: 1px solid white;
 }
 
 svg {
@@ -39,7 +36,7 @@ body {
 path {
   stroke: white;
   fill: transparent;
-  transition: 0.5s;
+  transition: 0.7s;
   cursor: pointer;
 }
 

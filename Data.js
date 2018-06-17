@@ -257,7 +257,6 @@ var vm = new Vue({
         }
     },
 
-
 })
 
 
@@ -267,4 +266,11 @@ $("path").mouseenter(function (e) {
 
     var cityname = $(this).attr("name")
     vm.filter = cityname;
+
+    $(".forcast").css("opacity", "1")
+})
+
+$("path").mouseleave(function (e) {
+
+    $(".forcast").css("opacity", "0")
 })

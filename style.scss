@@ -5,7 +5,7 @@ $color-brightgold:rgba(241, 215, 67, 0.938);
 }
 
 .forcast {
-    border: white 1px solid;
+    border: white 0.5px solid;
     padding: 20px;
     h5,
     h4,
@@ -13,9 +13,8 @@ $color-brightgold:rgba(241, 215, 67, 0.938);
     h2 {
         margin: 0; // text-align: center;
     }
-    .cityname {
-        color: $color-brightgold
-    }
+    opacity: 0;
+    transition: 1s;
 }
 
 .title {
@@ -24,7 +23,6 @@ $color-brightgold:rgba(241, 215, 67, 0.938);
     top: 20%;
     right: 20%;
     font-size: 30px;
-    border-bottom: 1px solid white;
 }
 
 svg {
@@ -39,7 +37,7 @@ body {
 path {
     stroke: white;
     fill: transparent; // PATH顏色不能是none
-    transition: 0.5s;
+    transition: 0.7s;
     cursor: pointer;
     &:hover {
         fill: $color-gold;
