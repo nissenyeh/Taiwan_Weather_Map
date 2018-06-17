@@ -1,0 +1,8 @@
+{
+  "name": "",
+  "version": "",
+  "description": "・嘗試學習操控SVG ・嘗試使用SCSS",
+  "dependencies": {
+    "vue-resource": "^1.5.1"
+  }
+}

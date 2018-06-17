@@ -2,23 +2,34 @@
   font-family: 'Oswald', sans-serif;
 }
 
+.forcast {
+  border: white 1px solid;
+  padding: 20px;
+}
+
 .forcast h5,
 .forcast h4,
+.forcast h3,
 .forcast h2 {
   margin: 0;
+}
+
+.forcast .cityname {
+  color: rgba(241, 215, 67, 0.938);
 }
 
 .title {
   color: white;
   position: absolute;
-  top: 20px;
-  right: 100px;
+  top: 20%;
+  right: 20%;
   font-size: 30px;
   border-bottom: 1px solid white;
 }
 
 svg {
   height: 100vh;
+  width: 80vh;
 }
 
 body {

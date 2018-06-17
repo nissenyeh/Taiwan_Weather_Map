@@ -1,27 +1,35 @@
-$color-gole:#B99362;
+$color-gold:#B99362;
+$color-brightgold:rgba(241, 215, 67, 0.938);
 * {
     font-family: 'Oswald', sans-serif;
 }
 
 .forcast {
+    border: white 1px solid;
+    padding: 20px;
     h5,
     h4,
+    h3,
     h2 {
-        margin: 0;
+        margin: 0; // text-align: center;
+    }
+    .cityname {
+        color: $color-brightgold
     }
 }
 
 .title {
     color: white;
     position: absolute;
-    top: 20px;
-    right: 100px;
+    top: 20%;
+    right: 20%;
     font-size: 30px;
     border-bottom: 1px solid white;
 }
 
 svg {
     height: 100vh;
+    width: 80vh;
 }
 
 body {
@@ -34,7 +42,7 @@ path {
     transition: 0.5s;
     cursor: pointer;
     &:hover {
-        fill: $color-gole;
+        fill: $color-gold;
         transform: translate(-10px, -10px)
     }
 }
