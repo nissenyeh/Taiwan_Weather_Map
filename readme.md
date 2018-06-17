@@ -25,9 +25,9 @@ User can get the weather information by clicking location (點選地點可以獲
 
 ### Taiwan Weather Map
 
-Web Demo:http://taiwanweathermap.surge.sh/
-Taiwan Weather API:https://works.ioa.tw/weather/api/doc/index.html
-Taiwan Map SVG:https://simplemaps.com/resources/svg-tw
+* Web Demo:http://taiwanweathermap.surge.sh/
+* Taiwan Weather API:https://works.ioa.tw/weather/api/doc/index.html
+* Taiwan Map SVG:https://simplemaps.com/resources/svg-tw
 
 #### The Tech I use in this ptoject
 
