@@ -5,7 +5,7 @@
 * 網站範例（Demo）:http://taiwanweathermap.surge.sh/
 * 天氣的API(Taiwan weather data API)：https://works.ioa.tw/weather/api/doc/index.html
 * 台灣地圖SVG素材（Taiwan Map SVG）: https://simplemaps.com/resources/svg-tw
-* 參考的教學(Reference):https://www.youtube.com/watch?v=eHrGB5EHtF4（不包含API串接&Axios)
+* 參考的教學(Reference):https://www.youtube.com/watch?v=eHrGB5EHtF4  （不包含API串接&Axios)
 
 
 #### 嘗試使用的技術
