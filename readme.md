@@ -14,7 +14,7 @@
 * 其他：Markdown語法＋Giphycapture(製作GIF圖檔)+Npm Surge(用來上傳Demo網站）＋Git
 
 
-### 網站 Demo
+### Gif Demo
 
 ![Alt text](https://media.giphy.com/media/8c3NGFvV6YMufWggjA/giphy.gif)
 
